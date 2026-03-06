@@ -1,0 +1,25 @@
+# Flutter
+.dart_tool/
+.packages
+.pub-cache/
+.pub/
+build/
+
+# Android
+/android/.gradle
+/android/app/build
+
+# iOS
+/ios/Pods
+/ios/Flutter/Flutter.framework
+/ios/Flutter/Flutter.podspec
+
+# MacOS
+macos/Pods/
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
