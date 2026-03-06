@@ -18,11 +18,11 @@ class _BannerSliderState extends State<BannerSlider> {
 
   String getBannerUrl(BannerModel banner) {
     if (banner.mobileImage.isNotEmpty) {
-      return "${AppConstants.imageBaseUrl}/storage/app/public/banner/${banner.mobileImage}";
+      return "${AppConstants.imageBaseUrl}/storage/banner/${banner.mobileImage}";
     }
 
     if (banner.image.isNotEmpty) {
-      return "${AppConstants.imageBaseUrl}/storage/app/public/banner/${banner.image}";
+      return "${AppConstants.imageBaseUrl}/storage/banner/${banner.image}";
     }
 
     return '';
